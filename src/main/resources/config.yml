@@ -1,0 +1,14 @@
+# General Settings #
+Language: de-DE
+
+# Crate Settings #
+CrateSpeed: 0.15
+CrateGeneralTime: 40
+DiscoMode: true
+
+# Sound Settings #
+CrateSpinSound: UI_BUTTON_CLICK
+CrateWinSound: ENTITY_PLAYER_LEVELUP
+
+# Data Storage (Do not edit, unless you know what you're doing) #
+CrateLocations: []

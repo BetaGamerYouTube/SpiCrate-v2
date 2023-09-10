@@ -1,0 +1,12 @@
+name: SpiCrates
+version: '1.3'
+main: de.beta.spicrate.SpiCrate
+author: BetaGamerYouTube
+api-version: 1.19
+commands:
+  crate:
+    permission: 'spicrate.admin'
+    aliases:
+      - spicrate
+      - spi
+    description: Command for managing Crates

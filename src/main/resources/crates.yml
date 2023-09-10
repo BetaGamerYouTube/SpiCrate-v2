@@ -1,0 +1,124 @@
+defaultCrate:
+  displayName: '&6Default Crate'
+  displayItem:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: CHEST
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"text":"§6Default Crate"}],"text":""}'
+      lore:
+        - '{"extra":[{"text":"§6Ok"}],"text":""}'
+  slot: 13
+  items:
+    '1':
+      displayItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND_SWORD
+      announce: true
+      commands:
+        - 'spi giveitem defaultCrate %player% 1'
+      chance: 5
+      showChance: true
+    '2':
+      displayItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: IRON_SWORD
+      announce: false
+      commands:
+        - 'spi giveitem defaultCrate %player% 2'
+      chance: 3
+      showChance: false
+    '3':
+      displayItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND_BLOCK
+      announce: false
+      commands:
+        - 'spi giveitem defaultCrate %player% 3'
+      chance: 1
+      showChance: true
+    '4':
+      displayItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SPAWNER
+      announce: false
+      commands:
+        - 'spi giveitem defaultCrate %player% 4'
+      chance: 1
+      showChance: true
+    '5':
+      displayItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+      announce: false
+      commands:
+        - 'spi giveitem defaultCrate %player% 5'
+      chance: 1
+      showChance: true
+    '6':
+      displayItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND
+      announce: false
+      commands:
+        - 'spi giveitem defaultCrate %player% 6'
+      chance: 1
+      showChance: true
+    '7':
+      displayItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: STONE
+      announce: false
+      commands:
+        - 'spi giveitem defaultCrate %player% 7'
+      chance: 1
+      showChance: true
+    '8':
+      displayItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SAND
+      announce: false
+      commands:
+        - 'spi giveitem defaultCrate %player% 8'
+      chance: 1
+      showChance: true
+    '9':
+      displayItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GRASS_BLOCK
+      announce: false
+      commands:
+        - 'spi giveitem defaultCrate %player% 9'
+      chance: 1
+      showChance: true
+    '10':
+      displayItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COAL_BLOCK
+      announce: false
+      commands:
+        - 'spi giveitem defaultCrate %player% 10'
+      chance: 1
+      showChance: true
+    '11':
+      displayItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: IRON_INGOT
+      announce: false
+      commands:
+        - 'spi giveitem defaultCrate %player% 11'
+      chance: 1
+      showChance: true
